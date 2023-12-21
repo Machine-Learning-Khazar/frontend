@@ -1,0 +1,92 @@
+.disease-predictor-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 4px;
+}
+
+input[type=submit] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.result-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.result-has-disease {
+    color: red;
+}
+
+.result-no-disease {
+    color: green;
+}
+
+.result-certainty {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.reset-button {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.reset-button:hover {
+    background-color: #3367d6;
+}
